@@ -1,0 +1,80 @@
+html {
+  background-color: rgb(30, 30, 30);
+}
+
+h1 {
+  color: lightgray;
+  text-align: center;
+}
+
+p {
+  color: lightgray;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+table {
+  align-content: center;
+  background-color: rgb(78, 78, 78);
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+td {
+  background-color: lightgray;
+  font-family: serif;
+  padding: 3px;
+}
+
+tr.option td {
+  background-color: lightpink;
+}
+
+th {
+  background-color: lightblue;
+  padding: 5px;
+}
+
+input {
+  width: 30px;
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  font-family: serif;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.75;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.linkButton {
+  padding: 10px;
+}
+
+.link {
+  color: rgba(111,202,227,255)
+}
+
+/* .fall {
+  float: left;
+}
+
+.spring {
+  float: right;
+} */
+
+input {
+  width: 100px;
+}
