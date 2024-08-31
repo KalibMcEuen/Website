@@ -11,9 +11,11 @@ p {
   color: lightgray;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 table {
+  vertical-align: top;
   align-content: center;
   background-color: rgb(78, 78, 78);
   margin-bottom: 15px;
@@ -59,22 +61,23 @@ button:active {
   opacity: 0.5;
 }
 
-.linkButton {
-  padding: 10px;
-}
-
 .link {
-  color: rgba(111,202,227,255)
+  text-align: center;
+  display: block;
+  color: rgba(111,202,227,255);
 }
 
-/* .fall {
-  float: left;
+a {
 }
-
-.spring {
-  float: right;
-} */
 
 input {
   width: 100px;
+}
+
+.uic-links {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.phys-cat, .phys-plan, .math-cat, .math-plan {
 }
