@@ -8,16 +8,22 @@ body {
   color: rgb(200, 200, 200);
 }
 
+div {
+  height: 100%;
+  font-size: 30px;
+}
+
+a {
+  color: rgba(111,202,227,255);
+}
+
 .text {
   font-size: 30px;
 }
+
 .files {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-div {
-  height: 100%;
-  font-size: 30px;
-}

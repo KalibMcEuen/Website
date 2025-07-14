@@ -1,0 +1,27 @@
+html {
+  background-color: rgb(30, 30, 30);
+}
+
+h1 {
+  color: lightgray;
+}
+
+img {
+  height: 400px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(111,202,227,255);
+  height: 30px;
+  font-weight: bold;
+}
+
+.link-div {
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  padding: 5px;
+}
